@@ -1,0 +1,191 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "givenName": "CIP119:givenName",
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "doNotList": "CIP119:doNotList",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a401010327200621582030859a56b94bdaae89591fbe9b7547233b2abc1f4d7f0cb54bc5cd6c7974ea6f"
+        },
+        "signature": {
+          "@value": "845829a201276761646472657373581ca2d942cd0ba1c5b286146ad1567bb5d804b4d3df3c3f6124cd72ac9ba166686173686564f45844566572696679204452657020647265703135747635396e677435387a6d3970733564746734763761346d717a746635376c38736c6b7a66786477326b666b38716474647a584005e5593c0aa64e48fbb82e3336af7f080a03f384364eff63a9012a67500a31e0b0a0d7395be6754930bba01448d21b30838a8c5e219586efe77f93bc12b2f006"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "bio": {
+      "@value": "The CaFi team is a community organization that provides information and supports the Vietnamese community in accessing and participating in the activities of the Catalyst - a decentralized funding platform in the Cardano blockchain ecosystem. CaFi team was founded by reputable members of the Vietnam Cardano community who have been deeply involved in many different projects and activities of Catalyst. CaFi team has been successful in helping the community better understand the process of writing proposals, evaluating proposals and participating in voting, thereby promoting the active participation of the community in the decentralized governance process.  The CaFi team has been funded for many proposals from the Catalyst and has contributed to the development of the Cardano ecosystem through supporting innovative and creative projects. CaFi’s members are all experienced individuals who have participated in many projects funded by Catalyst and are running for dRep (Delegated Representative) in Cardano's decentralized governance model."
+    },
+    "doNotList": {
+      "@value": "false"
+    },
+    "email": {
+      "@value": "tunguyenvan151094@gmail.com"
+    },
+    "givenName": {
+      "@value": "CaFi"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmVNpCRuzwbmAyvCkx16XqZrAh8c5jv7XBj9MKp9jW8Kqb",
+      "sha256": "fc17ed7e00078911239fc13070bba4d009d63ec59eb5d9ff7607a25c281b2f5c"
+    },
+    "motivations": {
+      "@value": "With a strong belief in the potential of blockchain technology and the development of the Cardano ecosystem, the CaFi team wishes to contribute to innovation and progress through supporting community projects and initiatives. The main motivation of CaFi is to make the Catalyst more accessible to Vietnamese, while creating an environment where people can learn, share and develop their skills in writing proposals, evaluating and participating in the democratic voting process.\n\nThe CaFi team understands that the blockchain ecosystem in general and Cardano in particular are in the development stage and require community participation to achieve sustainability and success. By guiding the community to participate in Catalyst, CaFi wants to promote creativity, innovation and help valuable ideas receive the necessary support to grow."
+    },
+    "objectives": {
+      "@value": "1. Community Support: CaFi team focuses on helping the Vietnam community actively participate in the Catalyst through consulting and training activities on proposal writing, proposal evaluation and voting.\n\n2. Promoting innovation: We wishe to support and develop innovative projects in the Cardano ecosystem, especially those with practical value and sustainable development potential.\n\n3. Building the dRep role: We aim to become a responsible and reputable dRep in Cardano's decentralized governance model, contributing to the long-term development of the ecosystem.\n\n4. Community development: We want to build a dynamic, creative and self-directed community in the Blockchain ecosystem through participating in funding opportunities from Catalyst.\n\nWith the experience gained, CaFi team believes that working with the community will bring many values, while helping projects from Vietnam to have better access to resources from Catalyst to develop strongly on the Cardano platform."
+    },
+    "paymentAddress": {
+      "@value": "addr1q9mrk85srqxk88239chlxd73ct2s4nl20jzfwgu9k7tzxe60knquflpw8mtql842hyundh3vdy4e6zhw8f6z7afxjvys34qg2p"
+    },
+    "qualifications": {
+      "@value": "1.  Do Viet Cuong\nMaster, high school teacher, Blockchain research since 2017, Cardano Vietnam community manager. Co-host of 9 Catalyst funded proposals. Admin of youtube channel, podcast, discussion group about Cardano and Catalyst project. Certified CBCA. \n2. Tu Nguyen\n+ Vietnam Drep Pioneer Program #1\n+ FIMI Translator team\n+ CBCA Alpha Program 2, Certificate ID: 64898843661a2dbd9402d27b\n+ CBCA Course, Certificate ID: 5351588\n+ Catalyst Funded Proposer\n+ Admin of the Catalyst discussion group\n3.  Duc Nguyen\n+ Cardano Blockchain Researcher From 2018 to present: Research and develop project related to Cardano Blockchain\n+ Skill: Financial analysis; IT system management, database; Graphic design\n+ Language: Vietnamese; English\n4.  Hoang Phuong Linh \nTranslation and research in Cardano Blockchain since 2017, marketing, content creation,training, event organization, community networking. Certified CBCA holder. Successfully raised fund for Catalyst project. Language: Vietnamese, English."
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Catalyst Discussion Group"
+        },
+        "uri": {
+          "@value": "https://t.me/Fimi_PA"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Youtube Channel"
+        },
+        "uri": {
+          "@value": "https://www.youtube.com/@taichinh-taman5516"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "General Cardano Discussion Group"
+        },
+        "uri": {
+          "@value": "https://t.me/StakingADA"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Cardano Podcast Channel"
+        },
+        "uri": {
+          "@value": "https://t.me/fimi_podcast"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "IOG Reseacher Paper Library in Vietnamese Version"
+        },
+        "uri": {
+          "@value": "https://cardano.vn/docs/Cardano360/TechDocs/intro/"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Do Viet Cuong"
+        },
+        "uri": {
+          "@value": "https://t.me/dovietcuong"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Tu Nguyen"
+        },
+        "uri": {
+          "@value": "https://t.me/Tulibra"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Duc Nguyen"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/minh-983aa4241/"
+        }
+      },
+      {
+        "@type": "Other",
+        "label": {
+          "@value": "Hoang Phuong Linh"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/phuong-linh-hoang-a318bb138/"
+        }
+      }
+    ]
+  }
+}
